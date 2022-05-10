@@ -1,0 +1,65 @@
+body {
+    display:grid;
+    grid-template-columns: 1fr 1fr 500px 1fr 1fr;
+    grid-template-rows: 2;
+    row-gap: 20px;
+    border: solid blue 1px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body .header {
+    grid-row: 1;
+    grid-column: 2 / span 3;
+    border: solid black 2px;
+    padding: 10px;
+    background-color:darkcyan;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size:x-large
+}
+h2 {
+    font-size:xx-large;
+}
+h3 {
+    font-size: medium;
+}
+.temperatureConversion {
+    grid-row: 2;
+    grid-column: 2;
+    border: solid red 1px;
+}
+
+.main {
+    grid-row: 2;
+    grid-column: 3;
+    border: solid red 1px;
+    text-align: center;
+}
+
+#aboveTheFold {
+    background-color: rgb(186, 194, 202);
+    border: solid rgb(159, 185, 159) 2px;
+    padding: 25px;
+
+}
+#belowTheFold {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: solid blue 1px;
+}
+.previousSearches {
+    grid-row: 2;
+    grid-column: 4;
+    border: solid red 1px;
+    padding: 10px;
+}
+
+.resultLine {
+    font-size: medium;
+}
+.resultLine .resultName {
+    font-weight: bold;
+}

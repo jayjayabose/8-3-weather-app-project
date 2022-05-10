@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather App!</title>        
+        <link href="./style.css" rel="stylesheet" />
+        <script defer src="./script.js"></script>
+        <body>
+            <div class="header">
+                <h1>Weather App</h1>
+                <form>
+                    <label for="searchTerm">Pick a Location:</label>
+                    <input type="text" name="searchTerm" id="searchTerm" placeholder=""/>
+                    <input type="submit" value="Get Weather">
+                </form>
+            </div>
+            <aside class="temperatureConversion">
+                [convert]
+            </aside>
+            <main class="main">
+                
+                <article id="aboveTheFold">
+                    <div id="initialMsg1">Choose a location to view the weather.</div>
+                   <!-- 
+                    <h2>[Search Term]</h2>
+                    <div class="resultLine"><span class="resultName">Nearest Area:</span> [nearestArea]</div>
+                    <div class="resultLine"><span class="resultName">[Region]</span></div>
+                    <div class="resultLine"><span class="resultName">Country: </span>[Country]</div>
+                    <div class="resultLine"><span class="resultName">Currently:  </span>Feels Like [Currently] &#8457 &amp & </div>
+                   [current weather (starts empty)]
+                    <div id="resultMain"></div>         -->           
+                </article>
+                <aside id="belowTheFold">
+                    <!-- [Contains three article elements (starts empty)]
+                    <article>today</article>
+                    <article>tomorrow</article>
+                    <article>day after tomorrow</article> -->                    
+                </aside>
+            </main>
+            <aside class = previousSearches>
+                <h4>Previous Searches</h4>
+                <div id="initialMsg2"><p>No searches have been made yet</p></div>
+                <ul>
+                    
+                </ul>
+            </aside>
+        </body>
+    </head>
+</html>
